@@ -5,7 +5,6 @@ export const NavBars = () => {
                 <div className="container-md flex justify-center">
                     <a href=""o>holamunjd</a>
                 </div>
-            
             </nav>
         </>
     )
