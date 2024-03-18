@@ -1,9 +1,9 @@
-export const AddDiploma = () => {
+export const AddDiploView = () => {
     return (
         <>
-            {/* Poner en orden la plantilla de los diplomas que se pueden crear */}
-        <main className="p-4">
-        <div className=" max-w-6xl mx-auto gap-4 grid md:grid-cols-3 md:gap-4">
+        
+        <div className="p-4 ">
+        <div className="max-w-7xl mx-auto gap-2 grid md:grid-cols-3 md:gap-4">
             <article className="bg-white flex flex-col shadow rounded overflow-hidden">
                 <div className="h-60">
                     <img 
@@ -44,7 +44,9 @@ export const AddDiploma = () => {
                 </div>
             </article>
         </div>
-    </main>
-        </>
+    </div>
+      
+                        </>
     )
-}
+  }
+  
